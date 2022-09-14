@@ -26,8 +26,7 @@ function Game(props) {
 
     const getTestText = async () => {
         let result = await getText(languageReducer);
-        let text = languageReducer === 'en'? result[0]:result;
-        spellItOut(text.split(''));
+        spellItOut(result.split(''));
 
     };
 
