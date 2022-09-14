@@ -1,0 +1,31 @@
+@import "./scss/nullStyle.scss";
+@import "./scss/App.scss";
+@import "./scss/Home.scss";
+@import "./scss/Header.scss";
+
+
+#root{
+  width: inherit;
+  height: inherit;
+  font-family: Inter-Regular;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+body {
+  background-color: #333333;
+}
+
+html{
+  font-size: 0.052vw;
+}
+
+
+
+@font-face {
+  font-family: Inter-Regular;
+  src: url('./Assets/Font/Inter-Regular.ttf');
+}
