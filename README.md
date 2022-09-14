@@ -8,6 +8,9 @@ You can take the test both in Russian and in English. The language selection is 
 
 After you press start, the site will send you the text that you need to write without looking at the keyboard, time reporting is from the moment when you typed correctly at least 1 character.
 
+### Technology
+React,  Redux,  JS,  SCSS
+
 ### Running with a script
 
 To make it easy to start the project I wrote a script for Linux, which will build and run the project, to do this, run the script from the project directory as follows:
@@ -33,3 +36,5 @@ docker-compose up -d --build
 ```
 
 docker will launch a project on the 3000 port
+
+
