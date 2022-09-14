@@ -1,0 +1,75 @@
+$bg-imgWPM: url("../Assets/img/Wpm.png");
+$bg-imgAc: url("../Assets/img/Accuracy.png");
+
+$icon-size    : 72rem;
+$green-l      : #8CC63F;
+
+
+.control {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+
+    position: sticky;
+    bottom: 0;
+    font-size: 28rem;
+
+    &__button {
+        font-size: 28rem;
+      background-color: #d9d9d9;
+      padding: 20rem 33rem;
+      border-radius: 15px;
+      transition: all 0.7s ease;
+
+      &:hover{
+        background: #353b33;
+        box-shadow:inset 0 0 0 $icon-size #6b6e6b;
+        color: aliceblue;
+      }
+     
+      
+    }
+  
+    &__info {
+      display: flex;
+      
+    }
+  
+    &__result {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      background-color: #d9d9d9;
+      border-radius: 36px;
+      margin: 22rem;
+      padding: 10rem 24rem 15rem;
+    }
+  
+    &__img-speed {
+      background-image: $bg-imgWPM;
+      background-size: cover;
+      overflow: hidden;
+  
+      width: 48rem;
+      height: 48rem;
+    }
+  
+    &__img-accuracy {
+      background-image: $bg-imgAc;
+      background-size: cover;
+      overflow: hidden;
+  
+      width: 48rem;
+      height: 48rem;
+    }
+  
+    &__result-info {
+      display: flex;
+      align-items: center;
+      margin-bottom: 12rem;
+      margin:0 16rem;
+    }
+  }
+  
+  
